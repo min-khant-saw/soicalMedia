@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>MKS Admin DashBoard</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="side_bar">
+        <div class="fixed-side">
+          <div class="profile">
+            <img src="image/man.jpg" alt="profile" class="profile_pic" />
+            <h2 class="pf-name">Min Khant Saw</h2>
+          </div>
+          <section class="sec">
+            <div class="items">
+              <div class="home active tags">
+                <h3>
+                  <i class="iconify" data-icon="ic:baseline-home"></i>
+                  <span class="tag">Home</span>
+                </h3>
+              </div>
+              <div class="pf tags">
+                <h3>
+                  <i
+                    class="iconify"
+                    data-icon="healthicons:ui-user-profile"
+                  ></i>
+                  <span class="tag">Profile</span>
+                </h3>
+              </div>
+              <div class="message tags">
+                <h3>
+                  <i class="iconify" data-icon="bxs:message-alt-detail"></i>
+                  <span class="tag">Message</span>
+                </h3>
+              </div>
+              <div class="setting tags">
+                <h3>
+                  <i class="iconify" data-icon="ep:setting"></i>
+                  <span class="tag">Setting</span>
+                </h3>
+              </div>
+            </div>
+          </section>
+          <footer>Create By Min Khant Saw</footer>
+        </div>
+      </div>
+      <div class="home-page">
+        <div class="content">
+          <div class="write-upload-post">
+            <div class="post-create">
+              <img src="image/man.jpg" alt="post-img" class="pf-post" />
+              <div class="input-form">
+                <input
+                  type="text"
+                  class="post-input"
+                  placeholder="What's on your mind?"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper"></div>
+            <span
+              class="iconify swiper-button-next sw-btn"
+              data-icon="ic:sharp-arrow-circle-right"
+            ></span>
+            <span
+              class="iconify swiper-button-prev sw-btn"
+              data-icon="ic:sharp-arrow-circle-left"
+            ></span>
+          </div>
+          <div class="post"></div>
+        </div>
+        <!-- <div class="profile"></div> -->
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/iconify/2.0.0/iconify.min.js"
+      integrity="sha512-lYMiwcB608+RcqJmP93CMe7b4i9G9QK1RbixsNu4PzMRJMsqr/bUrkXUuFzCNsRUo3IXNUr5hz98lINURv5CNA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
